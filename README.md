@@ -1,33 +1,29 @@
-# Challenge11-NoteTaker-
-This project is designed for building a note taking program using express.js skills
+# Challenge11-NoteTaker
 
-<!-- //creating api routes for the notes page 
-app.get('/api/notes', (req, res) => {
-    // .slice method returns a shallow copy of array into new array object
-    res.json(db.slice(1));
-    console.log("node made!");
-})
-//posting api notes for making new notes
-app.post('/api/notes', (req, res) => {
-    const madeNote = makeNote(req.body, db);
-    res.json(madeNote);
-})
- 
-const makeNote = (body, notesArray) => {
-    const makeNote = body;
-    if (!Array.isArray(notesArray))
-        notesArray = [];
-    if(notesArray.length === 0)
-        notesArray.push(0);
+# TABLE OF CONTENTS
 
-    <!-- body.id = notesArray.length;
-    notesArray[0]++;
-    notesArray.push(madeNote);
+- [License](#license)
+- [Description](#description)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Questions](#question)
 
-    fs.writeFileSync(
-        path.join(_dirname, './db/db/json'),
-        JSON.stringify(notesArray, null, 2)
-    );
-    return makeNote();
-}; -->
-// API routes for notes page -->
+## LICENSE
+
+https://opensource.org/licenses/MIT![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
+
+## DESCRIPTION
+
+This project is practice with building routes through express js. Through this, I've practiced building get, post and delete routes. Delete route may still be buggy.
+
+## INSTALLATION
+
+To use project, open the command line. Run "npm install" to install packages used in this project. Then, enter "npm start" to have project listen onto http//localhost:3001.
+
+## USAGE
+
+Use this app if for a quick and easy way to store notes for class!
+
+## QUESTIONS
+
+If you have any questions about this project, please reach out to me at leann.labra@gmail.com, or visit my github profile at github.com/leann-labra.
