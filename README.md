@@ -18,11 +18,13 @@ This project is practice with building routes through express js. Through this, 
 
 ## INSTALLATION
 
-To use project, open the command line. Run "npm install" to install packages used in this project. Then, enter "npm start" to have project listen onto http//localhost:3001.
+To use project, open the command line. Run "npm install" to install packages used in this project. Then, enter "npm run start" to have project listen onto http//localhost:3000.
 
 ## USAGE
 
-Use this app if for a quick and easy way to store notes for class!
+Use this app if for a quick and easy way to store notes for class! Check out demo below:
+
+[NoteTaker Demo](public/assets/NoteTaker-recording.mov)
 
 ## QUESTIONS
 
